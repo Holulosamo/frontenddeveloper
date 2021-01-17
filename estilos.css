@@ -33,7 +33,7 @@ body{
 
 .hero{
     height: 100vh;
-    background-image: var(--background), url('../img/hero.jpg');
+    background-image: var(--background), url('hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

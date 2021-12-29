@@ -185,12 +185,13 @@ body{
     background: #f2f2f2;
 }
 
+
 .projects__grid{
     display: grid;
     height: 550px;
     grid-template-areas:
     "img1 img1 img2 img3"
-    "img1 img1 img4 img5";
+    "img1 img1 img4 img3";
     gap: 10px;
 }
 
@@ -213,7 +214,6 @@ body{
 }
 
 
-
 .projects__item:nth-of-type(2){
     grid-area: img2;
 }
@@ -225,10 +225,6 @@ body{
 
 .projects__item:nth-of-type(4){
     grid-area: img4;
-}
-
-.projects__item:nth-of-type(5){
-    grid-area: img5;
 }
 
 .projects__hover{

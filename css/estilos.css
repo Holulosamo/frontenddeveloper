@@ -533,17 +533,16 @@ flex-direction: column;
     height: 50%;
 }
 
-.modal__btn{
-    position: absolute;
-    font-size: 2rem;
-    top: 10px;
-    right: 10px;
-    color: #fff;
-}
-
 @media(hover: hover){
     .modal__btn:hover{
         cursor: pointer;
+    }
+    .nav__items:hover{
+        color: #b6b9bd;
+    }
+    .hero__cta:hover{
+        background-color: #667eea;
+        color: #fff;
     }
 }
 
